@@ -1,0 +1,55 @@
+# Object files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.srec
+*.map
+
+# Libraries
+*.a
+*.lib
+*.so
+*.dll
+
+# Dependency files
+*.d
+
+# Build directories
+build/
+out/
+_build/
+Release/
+Debug/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
+
+# Coverage
+*.gcno
+*.gcda
+*.gcov
+lcov-report/
+coverage/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Doxygen
+doxygen/html/
+doxygen/latex/
+
+# Temporary / log
+*.log
+*.tmp
+core
